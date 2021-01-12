@@ -1,0 +1,66 @@
+.leisure__container{
+    width: 771px;
+    height: auto;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 45% 40% 5% 10%;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: 
+    'leisureImg . . leisureBtn'
+    'leisureImg leisureHeader leisureHeader .'
+    'leisureImg leisureDesc leisureDesc .'
+    'leisureImg leisureGallery leisureGallery leisureGallery';
+}
+
+.leisure__img {
+    grid-area: leisureImg;
+    margin-top: 45px;
+    margin-left: 40px;
+    border-radius: 5%;
+}
+
+.leisure__header {
+    grid-area: leisureHeader;
+    margin-left: 40px;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.leisure__btn {
+    grid-area: leisureBtn;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #005AEE;
+    width: 100px;
+    height: 20px;
+    margin-top: 45px;
+    margin-left: -40px;
+    text-align: center;
+    padding: 5px;
+    color: #FFF;
+    
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.leisure__description {
+    grid-area: leisureDesc;
+    margin-left: 40px;
+    font-size: 16px;
+    font-weight: 350;
+    color: #7B8591;
+}
+
+.leisure__gallery {
+    grid-area: leisureGallery;
+    padding-bottom: 53px;
+    padding-left: 30px;
+}
+.leisure__gallery img {
+    padding: 9px;
+    border-radius: 15%;
+}
