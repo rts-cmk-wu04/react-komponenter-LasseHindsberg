@@ -3,10 +3,12 @@ import logo from './logo.svg';
 import './App.css';
 import Travel from './components/Travel';
 
-function App() {
-  return (     
+
+  return (
+    <>
     <Travel />
-  );  
+    </>
+  );
 }
 
 export default App;
